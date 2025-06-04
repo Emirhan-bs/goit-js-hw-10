@@ -247,3 +247,6 @@ body {
 .snck-btn:hover {
   background-color: #cbe0f1;
 }
+.snk-input {
+  font-size: 20px;
+}
