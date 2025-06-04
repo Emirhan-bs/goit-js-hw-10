@@ -16,3 +16,234 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*İndex.html ilk kısım */
+body {
+  background-color: #f5deb3;
+}
+.first-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #f5deb3;
+}
+.two-div {
+  flex-direction: column;
+  display: flex;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 800;
+}
+.link:hover {
+  color: grey;
+}
+.timer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #f5deb3;
+}
+.go-back {
+  background-color: #5c87ea;
+  color: aliceblue;
+  font-size: 25px;
+  width: 120px;
+  margin-left: 15px;
+  margin-top: 15px;
+  text-align: center;
+  border-radius: 15px;
+}
+.go-back:hover {
+  background-color: #7f99d7;
+}
+
+#datetime-picker {
+  font-size: 25px;
+  width: 250px;
+  border-radius: 12px;
+}
+.timer-button {
+  font-size: 25px;
+  color: black;
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+.timer-button:hover {
+  background-color: #cbe0f1;
+}
+.timer {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  font-size: 25px;
+}
+
+.snackbar-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 25px;
+}
+.fieldset {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  height: 45px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.fieldset-legend {
+  margin-left: 15px;
+}
+.form {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.snck-btn {
+  font-size: 18px;
+  color: black;
+  border-radius: 15px;
+  background-color: white;
+}
+.snck-btn:hover {
+  background-color: #cbe0f1;
+}
